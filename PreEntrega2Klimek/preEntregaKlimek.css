@@ -96,6 +96,7 @@ li{
     color: white;
     text-align: center;
     font-size: 20px;
+    overflow: auto;
 }
 .main__section__div--padding{
     padding: 20px;
@@ -107,15 +108,14 @@ li{
     border-radius: 10px;
     box-shadow: greenyellow 3px 3px 30px;
 }
-.main__section__div__galeria{
+.main__section__div__galeria .main__section__div__servicios{
     display: flex;
     flex-direction: column;
     max-height: 50vh;
-    overflow: auto;
 }
 .main__section__div__galeria--img{
-    border: solid 3px greenyellow;
-    border-radius: 10px;
+    border: solid 4px greenyellow;
+    border-radius: 20px;
     box-shadow: 3px 3px 30px;
     width: 70vw;
     height: auto;
@@ -123,6 +123,18 @@ li{
 .main__section__div__galeria--figure{
     padding-bottom: 20px;
 }
+.main__section__div__figure--img{
+    min-width: 50%;
+    height: auto;
+    border: solid 4px greenyellow;
+    border-radius: 30px;
+    box-shadow: greenyellow 3px 3px 30px;
+
+}
+figcaption{
+    font-size: 30px;
+}
+
 
 /*Inicia aside mobile*/
 #aside{
@@ -292,6 +304,23 @@ box-shadow: greenyellow 3px 3px 30px;
             scale: 0.7;
         }
     }
+
+    .main__section__div__galeria{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        height: 100%;
+       
+    
+    }
+    .main__section__div__galeria--img{
+        border: solid 3px greenyellow;
+        border-radius: 10px;
+        box-shadow: 3px 3px 30px;
+        width: 80%;
+        height: 80%;
+    }
+
     
     /*Inicia aside desktop*/
     #aside{
