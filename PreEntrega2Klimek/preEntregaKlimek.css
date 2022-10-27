@@ -115,7 +115,7 @@ li{
 }
 .main__section__div__galeria--img{
     border: solid 4px greenyellow;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 3px 3px 30px;
     width: 70vw;
     height: auto;
@@ -123,9 +123,9 @@ li{
 .main__section__div__galeria--figure{
     padding-bottom: 20px;
 }
-.main__section__div__figure--img{
-    min-width: 50%;
-    height: auto;
+.main__section__div__servicios__figure--img{
+    width: 450px;
+    height: 300px;
     border: solid 4px greenyellow;
     border-radius: 30px;
     box-shadow: greenyellow 3px 3px 30px;
